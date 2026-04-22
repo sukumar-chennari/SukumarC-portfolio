@@ -98,6 +98,19 @@ const Homepage = () => {
 						</div>
 					</section>
 
+					{/* SERVICES SECTION */}
+					<section className="services-section fade-in-section">
+						<h3 className="section-heading">What I can help with</h3>
+						<div className="services-grid">
+							{INFO.services.map((service, index) => (
+								<div className="service-item" key={index}>
+									<span className="service-icon">✔</span>
+									<span className="service-text">{service}</span>
+								</div>
+							))}
+						</div>
+					</section>
+
 					{/* PROJECTS & EXPERIENCE SECTION */}
 					<div className="homepage-after-title">
 						<section id="projects" className="homepage-projects fade-in-section">

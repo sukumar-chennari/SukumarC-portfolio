@@ -41,6 +41,7 @@ const Contact = () => {
 							I'm always looking for new opportunities and collaborations. 
 							Whether you have a project in mind or just want to say hi, 
 							feel free to reach out through any of these platforms.
+							<p className="contact-support">Feel free to reach out for opportunities or collaborations.</p>
 						</div>
 
 						<div className="contact-methods">

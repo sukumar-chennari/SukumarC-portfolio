@@ -12,10 +12,17 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Mobile & Web Developer delivering production-ready apps with Ionic, React, and real-world deployment experience.",
+		title: "Mobile & Web Developer building production-ready apps with Ionic, React, and real-world deployment experience.",
 		description:
 			"I engineer and ship high-performance mobile and web applications that solve real user problems. Specialized in delivering scalable solutions with clean architecture and practical design.",
 	},
+
+	services: [
+		"Build mobile apps using Ionic + React (Android / iOS ready)",
+		"Convert web apps into mobile apps using Capacitor",
+		"Develop full-stack web apps using MERN stack",
+		"Improve performance and fix production issues",
+	],
 
 	about: {
 		title: "I’m Sukumar, a developer focused on mobile and web apps.",
@@ -35,7 +42,7 @@ const INFO = {
 	projects: [
 		{
 			title: "MedleyMed Telemedicine",
-			description: "Production telemedicine platform supporting real-time video consultations and scheduling. Successfully deployed on App Store and Google Play for real-world healthcare use.",
+			description: "Production telemedicine platform supporting real-time video consultations and scheduling. ✅ Deployed to App Store & Play Store for real-world healthcare use.",
 			logo: "/ionic.png",
 			linkText: "App Store",
 			link: "https://apps.apple.com/us/app/medleymed/id1148592938",

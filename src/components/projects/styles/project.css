@@ -50,13 +50,13 @@
 
 .project-tag {
 	font-size: 10px;
-	font-weight: 600;
-	padding: 2px 6px;
+	font-weight: 700;
+	padding: 2px 8px;
 	background-color: var(--surface-color);
-	color: var(--secondary-color);
+	color: #334155; /* Darker slate for contrast */
 	border-radius: var(--radius-sm);
 	text-transform: uppercase;
-	border: 1px solid var(--border-color);
+	border: 1px solid var(--quaternary-color);
 }
 
 .project-title {
