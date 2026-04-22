@@ -1,34 +1,37 @@
-@import "../../../data/styles.css";
-
 .card {
-	mix-blend-mode: normal;
-	border-radius: 20px;
-	outline: 2px solid #f4f4f5;
+	background-color: var(--white);
+	border: 1px solid var(--border-color);
+	border-radius: var(--radius-lg);
+	box-shadow: var(--shadow-sm);
+	overflow: hidden;
 }
 
 .card-container {
-	padding: 30px;
-	padding-bottom: 5px;
+	padding: var(--space-lg);
 }
 
 .card-header {
 	display: flex;
 	align-items: center;
+	gap: var(--space-md);
+	margin-bottom: var(--space-lg);
+	border-bottom: 1px solid var(--border-color);
+	padding-bottom: var(--space-md);
 }
 
 .card-icon {
-	font-size: 15px;
-	color: var(--tertiary-color);
+	color: var(--secondary-color);
+	font-size: 14px;
 }
 
 .card-title {
-	color: var(--secondary-color);
 	font-size: 14px;
-	padding-left: 20px;
-	font-weight: 650;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: var(--secondary-color);
 }
 
-.card-body {
-	padding-top: 40px;
-	font-size: 15px;
+.card-text {
+	color: var(--primary-color);
 }

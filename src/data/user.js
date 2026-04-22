@@ -12,46 +12,50 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Mobile & Web Developer",
+		title: "Mobile & Web Developer delivering production-ready apps with Ionic, React, and real-world deployment experience.",
 		description:
-			"I build clean, user-focused mobile and web applications using Ionic and React. I focus on performance, usability, and maintainable code.",
+			"I engineer and ship high-performance mobile and web applications that solve real user problems. Specialized in delivering scalable solutions with clean architecture and practical design.",
 	},
 
 	about: {
 		title: "I’m Sukumar, a developer focused on mobile and web apps.",
 		description:
-			"I have 1.5 years of experience working on web and mobile applications. Currently, I specialize in Ionic and React, and I’m expanding into full-stack development with Node.js. I enjoy building practical applications with clean architecture and real-world usability.",
+			"I have 1.5 years of experience building professional-grade mobile and web applications. My expertise lies in Ionic and React, with a proven track record of deploying complex systems like telemedicine platforms to both Play Store and App Store. I focus on building practical, high-impact products that prioritize usability and performance over unnecessary complexity.",
 	},
 
-	articles: {
-		title: "",
-		description: "",
-	},
+	skills: [
+		{ name: "React", icon: "react.png" },
+		{ name: "Ionic", icon: "ionic.png" },
+		{ name: "JavaScript", icon: "js.jpeg" },
+		{ name: "Node.js", icon: "node.jpeg" },
+		{ name: "Express", icon: "express.jpeg" },
+		{ name: "MongoDB", icon: "mongo.png" },
+	],
 
 	projects: [
 		{
-			title: "Telemedicine Mobile App",
-			description: "Worked as a mobile developer on a telemedicine platform supporting video consultations, appointment scheduling, and patient management. Contributed to app development and deployment on Play Store and App Store.",
+			title: "MedleyMed Telemedicine",
+			description: "Production telemedicine platform supporting real-time video consultations and scheduling. Successfully deployed on App Store and Google Play for real-world healthcare use.",
 			logo: "/ionic.png",
-			linkText: "Live App",
-			link: "https://apps.apple.com/us/app/medleymed/id1148592938"
+			linkText: "App Store",
+			link: "https://apps.apple.com/us/app/medleymed/id1148592938",
+			tags: ["Ionic", "React", "Deployment"],
 		},
 		{
-			title: "Voice-Enabled Expense Tracker",
-			description:
-				"Mobile expense tracking app with voice input support, real-time updates, and persistent local storage.",
+			title: "Voice Expense Tracker",
+			description: "Voice-input mobile app designed to reduce manual input friction. Features rapid expense entry and persistent local storage for on-the-go usability.",
 			logo: "/ionic.png",
 			linkText: "Live Demo",
 			link: "https://expense-tracker-app-sukumar.netlify.app",
+			tags: ["Ionic", "React", "Voice API"],
 		},
-
 		{
-			title: "E-commerce Web App",
-			description:
-				"Full-stack e-commerce application with product listing, cart functionality, and backend integration.",
+			title: "MERN E-commerce Engine",
+			description: "Full-stack e-commerce solution with optimized backend architecture and secure payment logic, built to handle real-world high-traffic shopping scenarios.",
 			logo: "/mern.png",
 			linkText: "GitHub",
 			link: "https://github.com/sukumar-chennari/ecommerce-mern/tree/dev",
+			tags: ["MERN", "Node.js", "APIs"],
 		},
 	],
 };

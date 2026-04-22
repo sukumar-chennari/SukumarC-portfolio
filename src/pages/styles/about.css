@@ -1,117 +1,70 @@
-.about-logo-container {
-	display: flex;
-	justify-content: left;
-	padding-top: 25px;
-}
-
-.about-logo {
-	display: flex;
-	position: fixed;
-	border: 1px solid white;
-	border-radius: 50%;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-	top: 4vh;
-}
-
 .about-container {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	margin: 0;
-	padding-top: 120px;
+	padding-top: 140px;
 }
 
 .about-main {
-	display: flex;
-}
-
-.about-right-side {
-	flex-basis: 900px;
+	display: grid;
+	grid-template-columns: 1.5fr 1fr;
+	gap: var(--space-4xl);
+	align-items: start;
 }
 
 .about-title {
 	width: 100% !important;
+	font-size: clamp(28px, 4vw, 40px);
 }
 
 .about-subtitle {
-	width: 80% !important;
+	width: 100% !important;
+	margin-top: var(--space-xl);
 }
 
-.about-left-side {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 300px;
+.about-para {
+	margin-bottom: var(--space-md);
+	color: var(--secondary-color);
+	font-size: 17px;
+	line-height: 1.8;
 }
 
 .about-image-container {
-	width: 370px;
+	width: 100%;
 }
 
 .about-image-wrapper {
-	display: inline-block;
+	border-radius: var(--radius-lg);
 	overflow: hidden;
-	width: 100%;
-	border-radius: 10%;
-	transform: rotate(3deg);
+	box-shadow: var(--shadow-lg);
+	transform: rotate(2deg);
+	transition: transform var(--transition-base);
+}
+
+.about-image-wrapper:hover {
+	transform: rotate(0deg);
 }
 
 .about-image-wrapper img {
-	display: block;
 	width: 100%;
-}
-
-.about-socials {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.about-socials-mobile {
-	display: none;
+	display: block;
 }
 
 @media (max-width: 1024px) {
-	.about-logo {
-		z-index: 100;
-	}
-
 	.about-main {
-		flex-direction: column;
+		grid-template-columns: 1fr;
+		gap: var(--space-2xl);
 	}
 
-	.about-subtitle {
-		padding-top: 20px !important;
+	.about-image-section {
+		order: -1;
+		max-width: 400px;
 	}
 
-	.about-left-side {
-		flex-basis: 100%;
-		order: 1;
-	}
-
-	.about-right-side {
-		flex-basis: 100%;
-		order: 2;
-	}
-
-	.about-image-container {
-		padding-bottom: 40px;
-	}
-
-	.about-socials {
-		display: none;
-	}
-
-	.about-socials-mobile {
-		padding-top: 30px;
-		display: flex;
+	.about-container {
+		padding-top: 100px;
 	}
 }
 
 @media (max-width: 600px) {
-	.about-container {
-		padding-top: 60px;
-	}
-
-	.about-image-container {
-		width: 80%;
+	.about-image-section {
+		max-width: 100%;
 	}
 }

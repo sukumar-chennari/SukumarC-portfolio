@@ -10,33 +10,45 @@ const Works = () => {
 		<div className="works">
 			<Card
 				icon={faBriefcase}
-				title="Work"
+				title="Experience"
 				body={
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
-								alt="facebook"
+								src="./athena.png"
+								alt="athena"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
-							<div className="work-subtitle">
-								Software Engineer
+							<div className="work-content">
+								<div className="work-title">Athena Global Technologies</div>
+								<div className="work-subtitle">Mobile & Web Developer (Ionic + React)</div>
+								<div className="work-duration">2024 — Present</div>
+								<ul className="work-bullets">
+									<li>Contributing to production-ready applications with a focus on performance and usability.</li>
+									<li>Delivering critical features under real-world project timelines and deployment cycles.</li>
+								</ul>
 							</div>
-							<div className="work-duration">2019 - Present</div>
 						</div>
 
 						<div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
+							{/* <img
+								src="./ionic.png"
+								alt="telemedicine"
 								className="work-image"
 							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-								Software Engineer
-							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-content">
+								<div className="work-title">MedleyMed</div>
+								<div className="work-subtitle">Mobile Developer (Ionic + React)</div>
+								<div className="work-duration">2023 — 2024</div>
+								<ul className="work-bullets">
+									<li>Developed a production-ready telemedicine platform used for real-time patient consultations.</li>
+									<li>Successfully handled deployments on the App Store and Google Play Store under strict timelines.</li>
+								</ul>
+							</div> */}
+						</div>
+
+						<div className="trust-signal">
+							<span className="trust-badge">App Store & Play Store Deployment Experience</span>
 						</div>
 					</div>
 				}

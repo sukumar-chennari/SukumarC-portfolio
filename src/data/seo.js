@@ -2,36 +2,29 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a mobile and web developer with expertise in Ionic and React. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["sukumar", "sukumar C", "sukumar Chennari"],
+			"Mobile & Web Developer focused on building real-world apps with clean architecture and performance. Specializing in React, Ionic, and the MERN stack.",
+		keywords: ["Sukumar", "Sukumar Chennari", "Mobile Developer", "React Developer", "Ionic Developer"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a mobile and web developer with expertise in Ionic and React. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["sukumar", "sukumar C", "sukumar Chennari"],
-	},
-
-	{
-		page: "articles",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-		keywords: ["sukumar", "sukumar C", "sukumar Chennari"],
+			"Learn more about Sukumar Chennari, a developer with experience in professional telemedicine apps and full-stack development using the MERN stack.",
+		keywords: ["Sukumar", "Sukumar Chennari", "Bio", "Developer Experience"],
 	},
 
 	{
 		page: "projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-		keywords: ["sukumar", "sukumar C", "sukumar Chennari"],
+			"Explore a portfolio of real-world applications built by Sukumar Chennari, including voice-enabled tools, telemedicine platforms, and e-commerce apps.",
+		keywords: ["Portfolio", "Projects", "React Projects", "Ionic Apps", "MERN Stack"],
 	},
 
 	{
 		page: "contact",
 		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-		keywords: ["sukumar", "sukumar C", "sukumar Chennari"],
+			"Get in touch with Sukumar Chennari for roles, freelance opportunities, or collaborations on mobile and web development projects.",
+		keywords: ["Contact", "Hire Developer", "Freelance", "Email Sukumar"],
 	},
 ];
 

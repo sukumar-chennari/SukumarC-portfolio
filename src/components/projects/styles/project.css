@@ -1,72 +1,94 @@
-@import "../../../data/styles.css";
-
 .project {
-	mix-blend-mode: normal;
-	border-radius: 20px;
-	opacity: 0.8;
+	background-color: var(--white);
+	border: 1px solid var(--border-color);
+	border-radius: var(--radius-md);
 	height: 100%;
+	transition: all var(--transition-base);
+	box-shadow: var(--shadow-sm);
+}
+
+.project:hover {
+	transform: translateY(-4px);
+	box-shadow: var(--shadow-lg);
+	border-color: var(--secondary-color);
 }
 
 .project a {
 	text-decoration: none;
 }
 
-.project:hover {
-	background: #fafafa;
-	opacity: 1;
-	transition: background-color 0.3s ease-in-out;
-}
-
-.project:hover .project-link {
-	color: var(--link-color);
-	transition: color 0.3s ease-in-out;
-}
-
 .project-container {
-	padding: 30px;
+	padding: var(--space-md);
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.project-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: var(--space-md);
 }
 
 .project-logo {
-	width: 30px;
+	width: 28px;
+	height: 28px;
 }
 
 .project-logo img {
 	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.project-tags {
+	display: flex;
+	gap: var(--space-xs);
+	flex-wrap: wrap;
+}
+
+.project-tag {
+	font-size: 10px;
+	font-weight: 600;
+	padding: 2px 6px;
+	background-color: var(--surface-color);
+	color: var(--secondary-color);
+	border-radius: var(--radius-sm);
+	text-transform: uppercase;
+	border: 1px solid var(--border-color);
 }
 
 .project-title {
-	font-family: var(--secondary-font);
-	color: var(--primary-color);
 	font-size: 16px;
-	padding-top: 15px;
-	margin-bottom: 1em;
 	font-weight: 700;
+	color: var(--primary-color);
+	margin-bottom: var(--space-xs);
 }
 
 .project-description {
+	font-size: 14px;
 	color: var(--secondary-color);
+	line-height: 1.6;
+	margin-bottom: var(--space-md);
+	flex-grow: 1;
 }
 
 .project-link {
 	display: flex;
 	align-items: center;
-	color: var(--secondary-color);
-	font-size: 12px;
-	padding-top: 20px;
+	gap: var(--space-sm);
+	color: var(--primary-color);
+	font-size: 13px;
+	font-weight: 600;
 }
 
 .project-link-icon {
-	padding-left: 5px;
-	font-size: 13px;
+	font-size: 12px;
 }
 
-.project-link-text {
-	padding-left: 20px;
-	font-weight: 700;
-}
-
-@media (max-width: 600px) {
-	.project {
-		height: 300px;
+@media (max-width: 768px) {
+	.project-container {
+		padding: var(--space-md);
 	}
 }
